@@ -1,0 +1,381 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	scrollbar-width: thin;
+	scrollbar-color: blue orange;
+}
+body{
+
+font-family:arial;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(37, 5, 151, 0.5)),
+url("p.jpg");
+		background-repeat: no-repeat;
+		height: 25%;
+		width: 100%;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+	background: #000198;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	background-color: black;
+	border-radius: 20px;
+	border: 3px solid black;
+  }
+#divTitulo{
+	
+	 background: blue;font-size:40px; color:rgb(0, 0, 0);width:100%;height:3%;font-family:"Trebuchet MS", Helvetica, sans-serif;}
+
+#divTitulo img{
+	height:80px;
+	width:80px;
+}
+d{
+	top:79%;
+	left: 60%;
+	font-size: 25pt;
+	position: relative;
+}
+#divMenu{
+	 background: linear-gradient(to bottom, #3333ff 0% 100%);
+	
+	width:100%;
+    height:46px;
+	padding:6px;
+}
+a{
+	text-decoration: none;
+	color:rgb(233, 233, 233);
+}
+#divMenu ul{
+	 list-style: none;
+}
+#divMenu ul ul{
+	 list-style: none;
+	display:none;
+}
+
+#divMenu li{
+float: left;
+  width:10%;
+
+}
+#divMenu li a{
+	display: block;
+  color: #ffffff;
+ 
+  padding: 12px 12px;
+  font-size: 16pt;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition:all 0.2s linear;
+   -moz-transition:all 0.2s linear;
+     -o-transition:all 0.2s linear;
+        transition:all 0.2s linear;
+	
+}
+#divConteudo{
+	background:rgb(54, 54, 54);
+	color:lightyellow;	
+	padding:10px;
+}
+
+#divConteudo div div{
+	display:none;
+}
+
+#divConteudo #produtos h1{
+	background:lightyellow;
+	color:Brown;
+}
+
+#divRodape{
+
+	top: 100px;
+	background:black;
+	color:#FFF;
+	
+	width:100%;
+	height:5%;
+}
+
+#divRodape #email{
+	float:right;
+}
+iframe{
+	width:100%;
+height:1500px;
+border:none;
+color:rgb(255, 255, 255);
+}
+#gallery {
+	
+	margin: 73px;
+	padding: 0px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 167px;
+	background-color:rgb(89, 0, 255);
+  }
+  
+  #gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  #gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  #desc {
+	padding: 15px;
+	text-align: center;
+  }
+  
+  .wrapper {
+	height: 100vh;
+   
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
+	background: linear-gradient(to right, #834d9b, #d04ed6);
+  }
+  @media only screen and (max-width: 600px){                                 
+	textarea{
+		width:100px;
+		height: 288px;
+		color:grey;
+		border: 1px solid #fff;
+   }
+
+	#divTitulo{
+	background:rgb(37, 0, 201);font-size:40px; color:rgb(0, 0, 0);width:100%;height:3%;font-family:"Trebuchet MS", Helvetica, sans-serif;}
+	iframe{
+		width:100%;
+	height:680px;
+	border:none;
+	color:rgb(255, 255, 255);
+	}
+	#divMenu{
+		background:rgb(0, 13, 129);
+		
+		width:100%;
+		height:42px;
+		padding:10px;
+	}
+	  #divMenu ul{
+	 list-style: none;
+}
+#divMenu ul ul{
+	 list-style: none;
+	display:none;
+}
+#divMenu .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+
+#divMenu li{
+float: left;
+  width:13%;
+}
+#divMenu li a{
+	display: block;
+  color: #ffffff;
+  
+  padding: 2px 2px;
+  font-size: 14pt;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition:all 0.2s linear;
+   -moz-transition:all 0.2s linear;
+     -o-transition:all 0.2s linear;
+        transition:all 0.2s linear;
+	
+}
+#gallery {
+	
+	margin: 7px;
+	padding: 0px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 100px;
+	background-color:#fff;
+  }
+  
+  #gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  #gallery img {
+	width: 98;
+	height: auto;
+  }
+  
+  #desc {
+	padding: 1px;
+	text-align: center;
+  }
+  .wrapper {
+	height: 100vh;
+   
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
+	background: linear-gradient(to right, #834d9b, #d04ed6);
+  }
+
+  }
+  
+  fieldset{
+
+	background-color: rgb(68, 0, 255);
+	color:#FFF;
+	top: 100%;
+	width: 49%;
+	left: 39px
+}
+input[type=email]{
+      width:467px;
+	  box-sizing: border-box;
+	  border: 1px solid #000;
+      border-radius: 4px;
+	  font-size: 14pt;
+}
+input[type=text]{
+      width:178px;
+	  box-sizing: border-box;
+	  border: 1px solid #000;
+      border-radius: 4px;
+	 font-size: 12pt;
+	 color:black;
+}
+textarea{
+	 width:500px;
+	 height: 300px;
+	 color:grey;
+	 border: 1px solid #fff;
+}
+input[type=submit]{
+background: rgb(14, 0, 216);
+	width: 20%;
+	height: 12%;
+	color: #FFFF;
+    border: 2px solid #fff;
+}
+input[type=submit]:hover{
+    background-color:blue;
+	transition-duration: 0.2s;
+}
+.icon-close h1 {
+    cursor: pointer;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+.icon-menu {
+    cursor: pointer;
+    font-size: 30px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.icon-menu i {
+    margin-right: 5px;
+}
+.icon-menu p {
+    border-bottom: 2px solid;
+    max-width: 79px;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+background: linear-gradient(to bottom, #000000 0%, #000099 100%);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+  
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  #myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 9999;
+	border: none;
+	outline: none;
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+	width: 9%;
+	  height: 9%;
+	border-radius: 50px;
+  }
+  
+  #myBtn:hover {
+	background-color: rgb(255, 255, 255);
+	color:#d02d2c;
+  }
+  @media only screen and (max-width: 2040px){
+	#divRodape{
+
+		top: 100px;
+		background:black;
+		color:#FFF;
+		
+		width:100%;
+		height:5%;
+	}
+	
+	#divRodape #email{
+		float:right;
+	}
+
+  }
+  Bors{
+	top: 200px;
+	background:rgb(82, 81, 81);
+	color:#FFF;
+	
+	width:100%;
+	height:5%;
+  }
